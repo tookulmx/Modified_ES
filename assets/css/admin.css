@@ -1,0 +1,188 @@
+a:active, a:hover {
+    color: #00a0d2;
+}
+
+.pqc-wrapper nav.pqc-nav-tab-wrapper {
+    margin: 1.5em 0 1em;
+    border-bottom: 1px solid #ccc;
+}
+
+.pqc-quote-active {
+    color: rgb(36, 191, 36);
+}
+
+.pqc-quote-inactive {
+    color: rgb(191, 36, 36)
+}
+
+#quote-table .fixed .column-date,
+#material-table .fixed .column-date {
+    width: 20%;
+}
+
+#order-table .fixed .column-date {
+    width: 12%;
+}
+
+input.regular-text, textarea {
+    width: 25em;
+}
+
+.pqc-wrapper .wp-badge.pqc-badge {
+    background-image: url( '../images/badge.png' );
+    background-color: #0288d1;
+}
+
+.pqc-wrapper.about-wrap .feature-section p {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-core-ui .pqc-wrapper .button-primary.focus,
+.wp-core-ui .pqc-wrapper .button-primary.hover,
+.wp-core-ui .pqc-wrapper .button-primary:focus,
+.wp-core-ui .pqc-wrapper .button-primary:hover {
+    background: rgba(2, 136, 209, 0.76);
+    border-color: rgba(2, 136, 209, 0.76);
+    color: #fff;
+}
+
+.wp-core-ui .pqc-wrapper .button-primary {
+    background: #0288d1;
+    border-color: #0288d1 #0288d1 #0288d1;
+    -webkit-box-shadow: 0 1px 0 #0288d1;
+    box-shadow: 0 1px 0 #0288d1;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #0288d1,1px 0 1px #0288d1,0 1px 1px #0288d1,-1px 0 1px #0288d1;
+}
+
+.wp-core-ui .pqc-wrapper .button-success {
+    background: #8BC34A;
+    border-color: #8BC34A #8BC34A #8BC34A;
+    -webkit-box-shadow: 0 1px 0 #8BC34A;
+    box-shadow: 0 1px 0 #8BC34A;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #8BC34A,1px 0 1px #8BC34A,0 1px 1px #8BC34A,-1px 0 1px #8BC34A;
+}
+
+.pqc-wrapper.about-wrap .changelog {
+    margin-bottom: 0px;
+}
+
+.pqc-wrapper .subsubsub {
+    margin: -8px 0 0;
+}
+
+#pqc-custom-description {
+    padding: 3px 8px;
+    font-size: 1.7em;
+    line-height: 1.42em;
+    height: auto;
+    width: 100%;
+    outline: 0;
+    margin: 10px 0;
+    display: block;
+}
+
+.widefat .column-order_title {
+    width: 25%;
+}
+.pqc-wrapper .widefat .column-shipping_address {
+    width: 25%;
+}
+
+.pqc-wrapper .widefat .column-order_date,
+.pqc-wrapper .widefat .column-order_total {
+    width: 15%;
+}
+
+.pqc-wrapper .widefat small.meta {
+    display: block;
+    color: #999;
+    font-size: 13px;
+    margin: 3px 0;
+    font-style: oblique;
+}
+
+#order_data h2 {
+    margin: 0;
+    font-size: 21px;
+    line-height: 1.2;
+    text-shadow: 1px 1px 1px #fff;
+    padding: 0;
+}
+
+#order_data h2,
+#order_data p.order_number {
+    font-family: HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",sans-serif;
+    font-weight: 400;
+}
+
+#order_data p.order_number {
+    margin: 0;
+    line-height: 1.6em;
+    font-size: 16px;
+}
+
+#order_data p {
+    color: #777;
+}
+
+#order_data table.cart {
+    float: left;
+    width: 100%;
+    border: 1px solid silver;
+    text-align: left !important;
+    padding: 0.1%;
+    border-collapse: separate;
+    border-spacing: 0;
+    table-layout: fixed;
+	margin-bottom: 2%;
+	margin-top: .7%;
+	box-shadow: 0 0 1px 1px whitesmoke;
+}
+
+#order_data table thead tr th {
+    border: 0;
+    border-bottom: 1px solid #d1d1d1;
+    font-size: 12px;
+	padding: 1.5%;
+}
+
+#order_data table tbody tr td {
+    border: 0;
+    border-bottom: 1px solid #d1d1d1;
+    font-size: 12px;
+    vertical-align: middle;
+    text-align: left;
+    padding: 1.5%;
+}
+
+#order_data td.item p {
+    font-size: 10px;
+    margin: 3% 0;
+    padding: 0;
+}
+#order_data tbody tr.even {
+    border: 0;
+    background: #e6e6e6;
+}
+
+#order_data td {
+    border: 0;
+}
+
+#order_data table.cart-total {
+    border: 1px solid whitesmoke;
+    margin: 0 0 0.8em;
+}
+
+#order_data table.cart-total tbody td {
+    border-bottom: 1px solid silver;
+}
+
+/* Mobile */
+@media screen and (max-width: 782px) {}
